@@ -1,0 +1,105 @@
+/* Reset some default styles */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styles */
+body {
+  font-family: 'Your Custom Font', sans-serif; /* Replace 'Your Custom Font' with your chosen font */
+  background: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+  background: #4285f4;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+/* Main Content Styles */
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 2em 0;
+}
+
+article {
+  width: 45%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+}
+
+/* Footer Styles */
+footer {
+  background: #333;
+  color: #fff;
+  padding: 2em 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.company-info {
+  flex: 1;
+  margin: 0 2em;
+}
+
+.contact-form {
+  flex: 1;
+}
+
+/* Hover effect on images */
+img:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  /* Gradient background for the header */
+  header {
+    background: linear-gradient(to right, #4285f4, #34a853);
+  }
+  
+  /* Gradient background for the footer */
+  footer {
+    background: linear-gradient(to right, #333, #555);
+  }
+  
+  /* SVG styling */
+  svg {
+    width: 100%;
+    max-width: 50px; /* Adjust size as needed */
+    fill: #fff;
+    transition: fill 0.3s ease-in-out;
+  }
+  
+  /* Hover effect*/
+  svg:hover {
+    fill: #ff9900;
+  }
+
+.footer-content img {
+    max-width: 200px; /* Adjust the maximum width as needed */
+    height: auto;
+  }
+  
+  
+
+  
+  
+  
+  
